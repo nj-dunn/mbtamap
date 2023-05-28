@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mbta-map"
+version = "0.1.0"
+description = "tracking train locations for hardware LED map"
+license = "MIT"
+authors = [
+        "Nathan Dunn <nathan@nathandunn.dev>"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+Pillow = "^9.3"
+mbta_api = { path = "./mbta_api" }
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"

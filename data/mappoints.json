@@ -1,0 +1,1002 @@
+[
+    {
+        "mapid": "0",
+        "name": "Forest Hills",
+        "coords": [
+            2422,
+            5114
+        ]
+    },
+    {
+        "mapid": "1",
+        "name": "Green Street",
+        "coords": [
+            2642,
+            4894
+        ]
+    },
+    {
+        "mapid": "2",
+        "name": "Stony Brook",
+        "coords": [
+            2858,
+            4675
+        ]
+    },
+    {
+        "mapid": "3",
+        "name": "Jackson Square",
+        "coords": [
+            3079,
+            4455
+        ]
+    },
+    {
+        "mapid": "4",
+        "name": "Roxbury Crossing",
+        "coords": [
+            3295,
+            4236
+        ]
+    },
+    {
+        "mapid": "5",
+        "name": "Ruggles",
+        "coords": [
+            3471,
+            4066
+        ]
+    },
+    {
+        "mapid": "6",
+        "name": "Massachusetts Avenue",
+        "coords": [
+            3643,
+            3892
+        ]
+    },
+    {
+        "mapid": "7",
+        "name": "Back Bay",
+        "coords": [
+            3805,
+            3729
+        ]
+    },
+    {
+        "mapid": "8",
+        "name": "Tufts Medical Center",
+        "coords": [
+            3989,
+            3545
+        ]
+    },
+    {
+        "mapid": "9",
+        "name": "Chinatown",
+        "coords": [
+            4305,
+            3227
+        ]
+    },
+    {
+        "mapid": "10",
+        "name": "Downtown Crossing",
+        "coords": [
+            4587,
+            2940
+        ]
+    },
+    {
+        "mapid": "11",
+        "name": "State",
+        "coords": [
+            4814,
+            2610
+        ]
+    },
+    {
+        "mapid": "12",
+        "name": "Haymarket",
+        "coords": [
+            4814,
+            2230
+        ]
+    },
+    {
+        "mapid": "13",
+        "name": "North Station",
+        "coords": [
+            4814,
+            1969
+        ]
+    },
+    {
+        "mapid": "14",
+        "name": "Community College",
+        "coords": [
+            4814,
+            1443
+        ]
+    },
+    {
+        "mapid": "15",
+        "name": "Sullivan Square",
+        "coords": [
+            4814,
+            1254
+        ]
+    },
+    {
+        "mapid": "16",
+        "name": "Wellington",
+        "coords": [
+            4814,
+            883
+        ]
+    },
+    {
+        "mapid": "17",
+        "name": "Malden Center",
+        "coords": [
+            4814,
+            695
+        ]
+    },
+    {
+        "mapid": "18",
+        "name": "Oak Grove",
+        "coords": [
+            4814,
+            509
+        ]
+    },
+    {
+        "mapid": "19",
+        "name": "Bowdoin",
+        "coords": [
+            4379,
+            2245
+        ]
+    },
+    {
+        "mapid": "20",
+        "name": "Government Center",
+        "coords": [
+            4549,
+            2411
+        ]
+    },
+    {
+        "mapid": "21",
+        "name": "Aquarium",
+        "coords": [
+            5075,
+            2395
+        ]
+    },
+    {
+        "mapid": "22",
+        "name": "Maverick",
+        "coords": [
+            5433,
+            2042
+        ]
+    },
+    {
+        "mapid": "23",
+        "name": "Airport",
+        "coords": [
+            5617,
+            1856
+        ]
+    },
+    {
+        "mapid": "24",
+        "name": "Wood Island",
+        "coords": [
+            5762,
+            1708
+        ]
+    },
+    {
+        "mapid": "25",
+        "name": "Orient Heights",
+        "coords": [
+            5942,
+            1529
+        ]
+    },
+    {
+        "mapid": "26",
+        "name": "Suffolk Downs",
+        "coords": [
+            6125,
+            1346
+        ]
+    },
+    {
+        "mapid": "27",
+        "name": "Beachmont",
+        "coords": [
+            6307,
+            1166
+        ]
+    },
+    {
+        "mapid": "28",
+        "name": "Revere Beach",
+        "coords": [
+            6502,
+            973
+        ]
+    },
+    {
+        "mapid": "29",
+        "name": "Wonderland",
+        "coords": [
+            6701,
+            772
+        ]
+    },
+    {
+        "mapid": "30",
+        "name": "Alewife",
+        "coords": [
+            2518,
+            866
+        ]
+    },
+    {
+        "mapid": "31",
+        "name": "Davis",
+        "coords": [
+            2776,
+            1124
+        ]
+    },
+    {
+        "mapid": "32",
+        "name": "Porter",
+        "coords": [
+            3096,
+            1446
+        ]
+    },
+    {
+        "mapid": "33",
+        "name": "Harvard",
+        "coords": [
+            3338,
+            1689
+        ]
+    },
+    {
+        "mapid": "34",
+        "name": "Central",
+        "coords": [
+            3582,
+            1930
+        ]
+    },
+    {
+        "mapid": "35",
+        "name": "Kendall/MIT",
+        "coords": [
+            3820,
+            2173
+        ]
+    },
+    {
+        "mapid": "36",
+        "name": "Charles/MGH",
+        "coords": [
+            4110,
+            2464
+        ]
+    },
+    {
+        "mapid": "37",
+        "name": "Park Street",
+        "coords": [
+            4303,
+            2656
+        ]
+    },
+    {
+        "mapid": "38",
+        "name": "South Station",
+        "coords": [
+            4871,
+            3226
+        ]
+    },
+    {
+        "mapid": "39",
+        "name": "Broadway",
+        "coords": [
+            5062,
+            3795
+        ]
+    },
+    {
+        "mapid": "40",
+        "name": "Andrew",
+        "coords": [
+            5062,
+            4081
+        ]
+    },
+    {
+        "mapid": "41",
+        "name": "JFK/UMass",
+        "coords": [
+            5062,
+            4361
+        ]
+    },
+    {
+        "mapid": "42",
+        "name": "Savin Hill",
+        "coords": [
+            4792,
+            5025
+        ]
+    },
+    {
+        "mapid": "43",
+        "name": "Fields Corner",
+        "coords": [
+            4792,
+            5159
+        ]
+    },
+    {
+        "mapid": "44",
+        "name": "Shawmut",
+        "coords": [
+            4792,
+            5288
+        ]
+    },
+    {
+        "mapid": "45",
+        "name": "Ashmont",
+        "coords": [
+            4792,
+            5415
+        ]
+    },
+    {
+        "mapid": "46",
+        "name": "North Quincy",
+        "coords": [
+            5517,
+            5159
+        ]
+    },
+    {
+        "mapid": "47",
+        "name": "Wollaston",
+        "coords": [
+            5704,
+            5351
+        ]
+    },
+    {
+        "mapid": "48",
+        "name": "Quincy Center",
+        "coords": [
+            5899,
+            5537
+        ]
+    },
+    {
+        "mapid": "49",
+        "name": "Quincy Adams",
+        "coords": [
+            6030,
+            5735
+        ]
+    },
+    {
+        "mapid": "50",
+        "name": "Braintree",
+        "coords": [
+            6034,
+            6024
+        ]
+    },
+    {
+        "mapid": "51",
+        "name": "Boston College",
+        "coords": [
+            772,
+            2953
+        ]
+    },
+    {
+        "mapid": "52",
+        "name": "South Street",
+        "coords": [
+            939,
+            2863
+        ]
+    },
+    {
+        "mapid": "53",
+        "name": "Chestnut Hill Avenue",
+        "coords": [
+            1036,
+            2766
+        ]
+    },
+    {
+        "mapid": "54",
+        "name": "Chiswick Road",
+        "coords": [
+            1134,
+            2668
+        ]
+    },
+    {
+        "mapid": "55",
+        "name": "Sutherland Road",
+        "coords": [
+            1231,
+            2570
+        ]
+    },
+    {
+        "mapid": "56",
+        "name": "Washington Street",
+        "coords": [
+            1329,
+            2472
+        ]
+    },
+    {
+        "mapid": "57",
+        "name": "Warren Street",
+        "coords": [
+            1427,
+            2374
+        ]
+    },
+    {
+        "mapid": "58",
+        "name": "Allston Street",
+        "coords": [
+            1525,
+            2276
+        ]
+    },
+    {
+        "mapid": "59",
+        "name": "Griggs Street",
+        "coords": [
+            1625,
+            2178
+        ]
+    },
+    {
+        "mapid": "60",
+        "name": "Harvard Avenue",
+        "coords": [
+            1800,
+            2121
+        ]
+    },
+    {
+        "mapid": "61",
+        "name": "Packard's Corner",
+        "coords": [
+            1973,
+            2177
+        ]
+    },
+    {
+        "mapid": "62",
+        "name": "Boston University Central",
+        "coords": [
+            2325,
+            2530
+        ]
+    },
+    {
+        "mapid": "63",
+        "name": "Boston University East",
+        "coords": [
+            2442,
+            2647
+        ]
+    },
+    {
+        "mapid": "64",
+        "name": "Blandford Street",
+        "coords": [
+            2560,
+            2762
+        ]
+    },
+    {
+        "mapid": "65",
+        "name": "Kenmore",
+        "coords": [
+            2822,
+            2951
+        ]
+    },
+    {
+        "mapid": "66",
+        "name": "Hynes Convention Center",
+        "coords": [
+            3128,
+            2952
+        ]
+    },
+    {
+        "mapid": "67",
+        "name": "Copley",
+        "coords": [
+            3415,
+            2950
+        ]
+    },
+    {
+        "mapid": "68",
+        "name": "Arlington",
+        "coords": [
+            3701,
+            2951
+        ]
+    },
+    {
+        "mapid": "69",
+        "name": "Boylston",
+        "coords": [
+            3989,
+            2940
+        ]
+    },
+    {
+        "mapid": "70",
+        "name": "Riverside",
+        "coords": [
+            1287,
+            4356
+        ]
+    },
+    {
+        "mapid": "71",
+        "name": "Woodland",
+        "coords": [
+            1452,
+            4268
+        ]
+    },
+    {
+        "mapid": "72",
+        "name": "Waban",
+        "coords": [
+            1555,
+            4164
+        ]
+    },
+    {
+        "mapid": "73",
+        "name": "Eliot",
+        "coords": [
+            1660,
+            4060
+        ]
+    },
+    {
+        "mapid": "74",
+        "name": "Newton Highlands",
+        "coords": [
+            1764,
+            3956
+        ]
+    },
+    {
+        "mapid": "75",
+        "name": "Newton Centre",
+        "coords": [
+            1871,
+            3851
+        ]
+    },
+    {
+        "mapid": "76",
+        "name": "Chestnut Hill",
+        "coords": [
+            1975,
+            3747
+        ]
+    },
+    {
+        "mapid": "77",
+        "name": "Reservoir",
+        "coords": [
+            2078,
+            3644
+        ]
+    },
+    {
+        "mapid": "78",
+        "name": "Beaconsfield",
+        "coords": [
+            2181,
+            3541
+        ]
+    },
+    {
+        "mapid": "79",
+        "name": "Brookline Hills",
+        "coords": [
+            2285,
+            3438
+        ]
+    },
+    {
+        "mapid": "80",
+        "name": "Brookline Village",
+        "coords": [
+            2391,
+            3332
+        ]
+    },
+    {
+        "mapid": "81",
+        "name": "Longwood",
+        "coords": [
+            2496,
+            3229
+        ]
+    },
+    {
+        "mapid": "82",
+        "name": "Fenway",
+        "coords": [
+            2600,
+            3124
+        ]
+    },
+    {
+        "mapid": "83",
+        "name": "Science Park/West End",
+        "coords": [
+            4634,
+            1793
+        ]
+    },
+    {
+        "mapid": "84",
+        "name": "Saint Mary's Street",
+        "coords": [
+            2423,
+            2848
+        ]
+    },
+    {
+        "mapid": "85",
+        "name": "Hawes Street",
+        "coords": [
+            2336,
+            2758
+        ]
+    },
+    {
+        "mapid": "86",
+        "name": "Kent Street",
+        "coords": [
+            2163,
+            2660
+        ]
+    },
+    {
+        "mapid": "87",
+        "name": "Saint Paul Street",
+        "coords": [
+            1990,
+            2758
+        ]
+    },
+    {
+        "mapid": "88",
+        "name": "Coolidge Corner",
+        "coords": [
+            1905,
+            2845
+        ]
+    },
+    {
+        "mapid": "89",
+        "name": "Summit Avenue",
+        "coords": [
+            1800,
+            2948
+        ]
+    },
+    {
+        "mapid": "90",
+        "name": "Brandon Hall",
+        "coords": [
+            1695,
+            3053
+        ]
+    },
+    {
+        "mapid": "91",
+        "name": "Fairbanks Street",
+        "coords": [
+            1592,
+            3156
+        ]
+    },
+    {
+        "mapid": "92",
+        "name": "Washington Square",
+        "coords": [
+            1488,
+            3260
+        ]
+    },
+    {
+        "mapid": "93",
+        "name": "Tappan Street",
+        "coords": [
+            1386,
+            3363
+        ]
+    },
+    {
+        "mapid": "94",
+        "name": "Dean Road",
+        "coords": [
+            1281,
+            3466
+        ]
+    },
+    {
+        "mapid": "95",
+        "name": "Englewood Avenue",
+        "coords": [
+            1178,
+            3569
+        ]
+    },
+    {
+        "mapid": "96",
+        "name": "Cleveland Circle",
+        "coords": [
+            1012,
+            3660
+        ]
+    },
+    {
+        "mapid": "97",
+        "name": "Prudential",
+        "coords": [
+            3233,
+            3260
+        ]
+    },
+    {
+        "mapid": "98",
+        "name": "Symphony",
+        "coords": [
+            3223,
+            3467
+        ]
+    },
+    {
+        "mapid": "99",
+        "name": "Northeastern University",
+        "coords": [
+            3150,
+            3564
+        ]
+    },
+    {
+        "mapid": "100",
+        "name": "Museum of Fine Arts",
+        "coords": [
+            3062,
+            3653
+        ]
+    },
+    {
+        "mapid": "101",
+        "name": "Longwood Medical Area",
+        "coords": [
+            2974,
+            3742
+        ]
+    },
+    {
+        "mapid": "102",
+        "name": "Brigham Circle",
+        "coords": [
+            2888,
+            3828
+        ]
+    },
+    {
+        "mapid": "103",
+        "name": "Fenwood Road",
+        "coords": [
+            2796,
+            3920
+        ]
+    },
+    {
+        "mapid": "104",
+        "name": "Mission Park",
+        "coords": [
+            2708,
+            4008
+        ]
+    },
+    {
+        "mapid": "105",
+        "name": "Riverway",
+        "coords": [
+            2620,
+            4096
+        ]
+    },
+    {
+        "mapid": "106",
+        "name": "Back of the Hill",
+        "coords": [
+            2529,
+            4185
+        ]
+    },
+    {
+        "mapid": "107",
+        "name": "Heath Street",
+        "coords": [
+            2441,
+            4273
+        ]
+    },
+    {
+        "mapid": "108",
+        "name": "Cedar Grove",
+        "coords": [
+            4792,
+            5631
+        ]
+    },
+    {
+        "mapid": "109",
+        "name": "Butler",
+        "coords": [
+            4728,
+            5767
+        ]
+    },
+    {
+        "mapid": "110",
+        "name": "Milton",
+        "coords": [
+            4581,
+            5767
+        ]
+    },
+    {
+        "mapid": "111",
+        "name": "Central Avenue",
+        "coords": [
+            4434,
+            5767
+        ]
+    },
+    {
+        "mapid": "112",
+        "name": "Valley Road",
+        "coords": [
+            4286,
+            5767
+        ]
+    },
+    {
+        "mapid": "113",
+        "name": "Capen Street",
+        "coords": [
+            4139,
+            5767
+        ]
+    },
+    {
+        "mapid": "114",
+        "name": "Mattapan",
+        "coords": [
+            3990,
+            5767
+        ]
+    },
+    {
+        "mapid": "115",
+        "name": "Assembly",
+        "coords": [
+            4814,
+            1067
+        ]
+    },
+    {
+        "mapid": "116",
+        "name": "Lechmere",
+        "coords": [
+            4490,
+            1651
+        ]
+    },
+    {
+        "mapid": "117",
+        "name": "Union Square",
+        "coords": [
+            4133,
+            1584
+        ]
+    },
+    {
+        "mapid": "118",
+        "name": "Gilman Square",
+        "coords": [
+            4015,
+            1173
+        ]
+    },
+    {
+        "mapid": "119",
+        "name": "Magoun Square",
+        "coords": [
+            3859,
+            1017
+        ]
+    },
+    {
+        "mapid": "120",
+        "name": "Ball Square",
+        "coords": [
+            3705,
+            862
+        ]
+    },
+    {
+        "mapid": "121",
+        "name": "Medford/Tufts",
+        "coords": [
+            3549,
+            706
+        ]
+    },
+    {
+        "mapid": "122",
+        "name": "East Somerville",
+        "coords": [
+            4172,
+            1329
+        ]
+    },
+    {
+        "mapid": "123",
+        "name": "Babcock Street",
+        "coords": [
+            2091,
+            2295
+        ]
+    },
+    {
+        "mapid": "124",
+        "name": "Amory Street",
+        "coords": [
+            2208,
+            2412
+        ]
+    }
+]
