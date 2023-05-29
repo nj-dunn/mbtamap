@@ -1,6 +1,7 @@
 # MBTA LED Project
 
-I needed to cover up some of my wallspace, so this is a quick project to query 
+I needed to cover up some of my wallspace, so this is a quick project to query the MBTA API for the current whereabouts
+of all T trains, and light up some LEDs
 
 ## Prerequisites (Simulator)
 - Install correct version of python (recommend pyenv - https://github.com/pyenv/pyenv)
@@ -31,18 +32,10 @@ machine api-v3.mbta.com
 password <api key goes here>
 ```
 
-<<<<<<< HEAD
-
-
-
-## Simulator
-
-=======
 ## Simulator
 
 ![Image of simulator](data/images/simulator.png)
 
->>>>>>> 7c2340c... Add readme, .gitignore
 To run simulator:
 
 ```poetry run python main.py```
