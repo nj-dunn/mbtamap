@@ -20,7 +20,7 @@ def _create_circle(self, x, y, r, **kwargs):
 
 
 class MapPoint:
-    def __init__(self, name, color="0x000000", intensity=1.0):
+    def __init__(self, name, color=0x000000, intensity=1.0):
         self._name = name
         self._color = color
         self._intensity = intensity
@@ -86,7 +86,7 @@ class MBTAMap:
     def turn_off_all(self):
         new_state = {}
         for id, point in self._mappoints.items():
-            point.color = "#000000"
+            point.color = 0x000000
             point.intensity = "0.0"
             new_state[id] = point
         self._mappoints = new_state
@@ -101,11 +101,12 @@ class MBTAMap:
             scaled_diameter = self.original_world.transformTo(
                 (self.original_station_diameter, 0), self.scaled_world
             )[0]
+
             self.canvas.create_circle(
                 scaled_coords[0],
                 scaled_coords[1],
                 scaled_diameter / 2,
-                fill=point.color,
+                fill="#{:06x}".format(point.color),
             )
 
         self.canvas.pack()
@@ -117,8 +118,8 @@ class MBTAMap:
             return None
         return self._id_map[mbta_id]
 
-    def get_mappoints(self):
-        return self._mappoints
+    def get_mappoint(self, id):
+        return self._mappoints[id]
 
     def update_mappoint(self, id, color, intensity):
         """
@@ -145,25 +146,22 @@ class SimpleController(BaseController):
                 # also the stop may potentially be None - if the vehicle is out of service
                 continue
             if vehicle.direction:
-                color = "#FF0000"
+                color = 0xFF0000
             else:
-                color = "#00FF00"
+                color = 0x00FF00
 
             local_id = self.mbta_map.get_mapid(vehicle.stop)
             if not local_id:
                 logging.error(f"Unmapped MBTA ID {vehicle.stop}")
                 continue
 
+            current_mappoint = self.mbta_map.get_mappoint(local_id)
+            color = color | current_mappoint.color
+
             if vehicle.status == mbta_api.Vehicle.Status.STOPPED_AT:
                 self.mbta_map.update_mappoint(local_id, color, 1.0)
-            elif (
-                vehicle.status == mbta_api.Vehicle.Status.INCOMING_AT
-                or vehicle.status == mbta_api.Vehicle.Status.IN_TRANSIT_TO
-            ):
-                if vehicle.direction and count % 2:
-                    self.mbta_map.update_mappoint(local_id, color, 1.0)
-                if not vehicle.direction and not (count % 2):
-                    self.mbta_map.update_mappoint(local_id, color, 1.0)
+            elif count %2:
+                self.mbta_map.update_mappoint(local_id, color, 1.0)
         self.mbta_map.update()
 
 

@@ -31,11 +31,18 @@ machine api-v3.mbta.com
 password <api key goes here>
 ```
 
+<<<<<<< HEAD
 
 
 
 ## Simulator
 
+=======
+## Simulator
+
+![Image of simulator](data/images/simulator.png)
+
+>>>>>>> 7c2340c... Add readme, .gitignore
 To run simulator:
 
 ```poetry run python main.py```
