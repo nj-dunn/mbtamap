@@ -12,7 +12,7 @@ authors = [
 python = "^3.11"
 requests = "^2.28.2"
 Pillow = "^9.3"
-mbta_api = { path = "./mbta_api" }
+mbta-api = {path = "./src/mbta_api", develop = true}
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.3.1"

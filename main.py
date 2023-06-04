@@ -58,7 +58,7 @@ class MBTAMap:
 
         self.original_world = World(map_image)
         self.original_station_diameter = 44
-        self.scaled_world = self.original_world.resize(1440, 1440)
+        self.scaled_world = self.original_world.resize(800, 800)
         self.tk_image = ImageTk.PhotoImage(self.scaled_world.image)
         with open("data/stops.json", "r") as f:
             stations = json.load(f)
@@ -206,7 +206,11 @@ class ZenController(BaseController):
 
 if __name__ == "__main__":
     tkinter.Canvas.create_circle = _create_circle
-    api = MBTASubwayApi.from_netrc()
+    try:
+        api = MBTASubwayApi.from_netrc()
+    except Exception as e:
+        logging.error(str(e))
+        api = MBTASubwayApi(None)
 
     ticks = 0
     freq = 1

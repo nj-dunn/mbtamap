@@ -6,9 +6,13 @@ of all T trains, and light up some LEDs
 ## Prerequisites (Simulator)
 - Install correct version of python (recommend pyenv - https://github.com/pyenv/pyenv)
 - Install Python Poetry (https://python-poetry.org/docs/)
-- ```pyenv install 3.11.2```
-- ```pyenv global 3.11.2```
+- ```pyenv install 3.11```
+- ```pyenv global 3.11```
 - (From root of project)```poetry install```
+### Install python-tk: MacOS
+- ``` brew install python-tk@3.11```
+### Install python-tk: Ubuntu
+- ``` apt-get install python3-tk```
 
 ## Prerequisites (Actual Hardware)
 - TODO
