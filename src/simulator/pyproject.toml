@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "simulator"
+version = "0.1.0"
+description = "Simple Python API for querying light/heavy rail info from MBTA api"
+license = "MIT"
+authors = [
+        "Nathan Dunn <nathan@nathandunn.dev>"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+Pillow = "^9.3"

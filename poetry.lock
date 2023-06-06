@@ -406,6 +406,24 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "simulator"
+version = "0.1.0"
+description = "Simple Python API for querying light/heavy rail info from MBTA api"
+category = "main"
+optional = false
+python-versions = "^3.11"
+files = []
+develop = true
+
+[package.dependencies]
+Pillow = "^9.3"
+requests = "^2.28.2"
+
+[package.source]
+type = "directory"
+url = "src/simulator"
+
+[[package]]
 name = "urllib3"
 version = "2.0.2"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -426,4 +444,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "6c863de8d4bea4c1807fed5426df072a23b28664789977fbd21e31090ad5970c"
+content-hash = "5f514920e6a94709bca8aff0708320a227c41eba3543be53606704cfbed4694c"
